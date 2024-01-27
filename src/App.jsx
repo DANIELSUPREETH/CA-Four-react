@@ -3,8 +3,6 @@ import QuestionBox from './components/QuestionBox';
 import Result from './components/Result';
 import questions from './questions';
 import './App.css'; // Import the CSS file
-
-
 const App = () => {
   const [darkMode, setDarkMode] = useState(false);
   const [currentQuestion, setCurrentQuestion] = useState(1);
