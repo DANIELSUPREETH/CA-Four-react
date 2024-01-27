@@ -1,0 +1,123 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .dark-mode {
+    background-color: #d6c8ff;
+    color: #333;
+    
+  }
+  
+  .light-mode {
+    background-color: #7e6bc4;
+    color: #333;
+  }
+  
+  
+  .question-box {
+    width: 80vw;
+    height: 60vh;
+    background-color: white;
+    border: 3px solid #ddd;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 20px 5px black;
+    /* transition: background-color 0.3s; */
+  }
+  
+  
+  .question-text {
+    font-size: xx-large;
+    text-align: center;
+  }
+  
+  .option {
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid #000000;
+    transition: background-color 0.3s;
+    border-radius: 20px;
+  }
+  
+  .option:hover {
+    background-color: #f5c7f7;
+  }
+  
+  .result-box {
+    background-color: white;
+    border: 2px solid #ddd;
+    box-shadow: 1px 1px 15px 5px black;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 10px black;
+    width: 80vw;
+    font-size: x-large;
+    height: 60vh;
+  }
+  
+  .result-box p {
+    margin-bottom: 10px;
+    font-size: xx-large;
+    
+  }
+  
+  .result-box button {
+    background-color: #ec495c;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 40px;
+    border: none;
+    cursor: pointer;
+    font-size: x-large;
+  }
+  
+  .result-box button:hover {
+    background-color: #ec495c;
+  }
+  #highlight{
+      background-color: #ec495c;
+    color: beige;
+  }
+  #notty{
+    background-color: black;
+    color: white;
+      margin-left: 1000px;
+      margin-bottom: 30px;
+      border-radius: 10px;
+      width: 90px;
+      height: 42px;
+    }
+ #outof{
+    font-size: x-large;
+ }
+ #option-text{
+    text-align: center;
+ }
+  .question-text.highlighted-text {
+    color: #ec495c;
+  }
+  
+  #highlight{
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 110px;
+    height: 42px;
+  }
+
+  #remove-highlight{
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 180px;
+    height: 42px;
+  }
